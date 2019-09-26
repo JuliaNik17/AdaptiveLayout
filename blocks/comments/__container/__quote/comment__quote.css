@@ -1,0 +1,44 @@
+.comment__quote {
+    width: 382px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+    .comment__quote {
+
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .comment__quote {
+        /*width: 296px;*/
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .comment__quote {
+        max-width: 383px;
+        font-size: 16px;
+        line-height: 23px;
+        /*margin-bottom: 0;*/
+        margin: 0 auto;
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .comment__quote {
+        /*width: 343px;*/
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .comment__quote {
+        /*width: 288px;*/
+    }
+}

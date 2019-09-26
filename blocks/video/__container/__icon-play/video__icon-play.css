@@ -1,0 +1,44 @@
+.video__icon_play {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    /*bottom: 252px;*/
+}
+
+@media screen and (min-width: 1440px) {
+    .video__icon_play {
+
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .video__icon_play {
+        /*bottom: 217px;*/
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .video__icon_play {
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        /*bottom: 135px;*/
+
+    }
+}
+
+@media screen and (max-width: 767px){
+    .video__icon_play {
+        top: 24px;
+        left: 24px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+    .video__icon_play {
+        top: 8px;
+        left: 16px;
+
+    }
+}

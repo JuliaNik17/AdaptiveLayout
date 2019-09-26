@@ -1,0 +1,40 @@
+.place__url-heading {
+    width: 484px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin: 0 0 16px;
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+    .place__url-heading {
+        /*width: 456px;*/
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .place__url-heading {
+        /*width: 352px;*/
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .place__url-heading {
+        width: calc(100% - 2*16px);
+        margin: 0 0 8px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .place__url-heading {
+        
+    }
+}

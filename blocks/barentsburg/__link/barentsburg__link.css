@@ -1,0 +1,41 @@
+.barentsburg__link {
+    width: 282px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #FFFFFF;
+
+}
+
+.barentsburg__link:hover {
+    opacity: .7;
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1279px) {
+    .barentsburg__link {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .barentsburg__link {
+        /*width: 290px;*/
+    }
+}
+
+@media screen and (max-width: 767px){
+    .barentsburg__link {
+        /*width: 343px;*/
+        /*margin: 0 16px 32px;*/
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .barentsburg__link {
+        /*width: 288px;*/
+    }
+}

@@ -1,0 +1,54 @@
+@import url('../additional/__content-title/additional__content-title.css');
+@import url('../additional/__content-subtitle/additional__content-subtitle.css');
+@import url('../additional/__container/additional__container.css');
+
+.additional {
+    width: 1184px;
+    /*height: 542px;*/
+    margin: 0 48px 102px;
+}
+
+@media screen and (min-width: 1440px) {
+    .additional {
+        /*margin: 0 128px 102px;*/
+        margin: 0 auto 102px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .additional {
+        margin: 0 0 102px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .additional {
+        /*width: 991px;*/
+        width: calc(100% - 2*16px);
+        margin: 0 16px 145px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .additional {
+        /*width: 640px;*/
+        width: calc(100% - 2*64px);
+        margin: 0 64px 102px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .additional {
+        /*width: 284px;*/
+        width: calc(100% - 2*46px);
+        margin: 0 46px 64px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .additional {
+        /*width: 288px;*/
+        width: calc(100% - 2*16px);
+        margin: 0 16px 64px;
+    }
+}

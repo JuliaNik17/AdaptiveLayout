@@ -1,0 +1,59 @@
+@import url('../__container/__item/additional__item.css');
+@import url('../__container/__heading/additional__heading.css');
+@import url('../__container/__text/additional__text.css');
+
+
+.additional__container {
+    width: 1184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+    .additional__container {
+
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .additional__container {
+        /*width: 991px;*/
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .additional__container {
+        /*width: 584px;*/
+        width: calc(100% - 2*28px);
+        margin: 0 28px;
+        flex-wrap: wrap;
+    }
+}
+
+/*@media screen and (max-width: 767px){*/
+/*    .additional__container {*/
+/*        !*width: 284px;*!*/
+/*        width: 100%;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-width: 650px) {
+    .additional__container {
+        width: 100%;
+        max-width: 284px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .additional__container {
+        /*width: 284px;*/
+        width: 100%;
+        /*margin: 0 2px;*/
+        margin: 0 auto;
+    }
+}

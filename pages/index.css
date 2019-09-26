@@ -1,0 +1,115 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/footer/footer.css');
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../fonts/Inter-Regular.woff")format('woff'), url("../fonts/Inter-Regular.woff2")format('woff2');
+    font-weight: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../fonts/Inter-Bold.woff")format('woff'), url("../fonts/Inter-Bold.woff2")format('woff2');
+    font-weight: bold;
+    font-display: fallback;
+}
+
+
+
+body {
+    /*width: 1280px;*/
+    width: 100%;
+    /*margin: 0 auto;*/
+    font-family: 'Inter';
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+}
+
+/*.content {*/
+/*    !*width: 100%;*!*/
+/*    width: 1184px;*/
+/*    margin: 0 48px;*/
+/*}*/
+
+p {
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        /*width: 1440px;*/
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content {
+        /*max-width: 1440px;*/
+        width: 1184px;
+        margin: 0 auto;
+        /*margin: 0 calc((100% - 1184px)/2);*/
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    body {
+        width: 100%;
+        /*margin: 0 auto;*/
+    }
+
+    .content {
+        width: 1184px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 1279px) {
+    body {
+        width: 100%;
+        /*margin: 0 auto;*/
+    }
+
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    body {
+        width: 100%;
+        /*margin: 0 auto;*/
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    body {
+        width: 100%;
+        /*margin: 0 auto;*/
+    }
+}
+
+@media screen and (max-width: 374px) {
+    body {
+        width: 100%;
+        /*margin: 0 auto;*/
+    }
+}

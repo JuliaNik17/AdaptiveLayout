@@ -1,0 +1,49 @@
+@import url('../__container/comment/comment.css');
+@import url('../__container/__image/comment__image.css');
+@import url('../__container/__quote/comment__quote.css');
+@import url('../__container/__autor/comment__autor.css');
+
+.comments__container {
+    width: 1184px;
+    /*height: 283px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1440px) {
+    .comments__container {
+
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .comments__container {
+        /*width: 925px;*/
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .comments__container {
+        /*width: 382px;*/
+        width: calc(100% - 2*139px);
+        margin: 0 139px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .comments__container {
+        /*width: 343px;*/
+        width: 100%;
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .comments__container {
+        /*width: 288px;*/
+    }
+}
