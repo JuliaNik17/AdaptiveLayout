@@ -29,19 +29,12 @@
 
 
 body {
-    /*width: 1280px;*/
     width: 100%;
-    /*margin: 0 auto;*/
     font-family: 'Inter';
     background-color: #2A2C2F;
     color: #FFFFFF;
 }
 
-/*.content {*/
-/*    !*width: 100%;*!*/
-/*    width: 1184px;*/
-/*    margin: 0 48px;*/
-/*}*/
 
 p {
     margin-top: 0;
@@ -50,23 +43,19 @@ p {
 
 @media screen and (min-width: 1440px) {
     body {
-        /*width: 1440px;*/
         width: 100%;
         margin: 0 auto;
     }
 
     .content {
-        /*max-width: 1440px;*/
         width: 1184px;
         margin: 0 auto;
-        /*margin: 0 calc((100% - 1184px)/2);*/
     }
 }
 
 @media screen and (max-width: 1439px) {
     body {
         width: 100%;
-        /*margin: 0 auto;*/
     }
 
     .content {
@@ -79,7 +68,6 @@ p {
 @media screen and (max-width: 1279px) {
     body {
         width: 100%;
-        /*margin: 0 auto;*/
     }
 
     .content {
@@ -95,7 +83,6 @@ p {
 @media screen and (max-width: 1023px){
     body {
         width: 100%;
-        /*margin: 0 auto;*/
     }
 
 }
@@ -103,13 +90,11 @@ p {
 @media screen and (max-width: 767px){
     body {
         width: 100%;
-        /*margin: 0 auto;*/
     }
 }
 
 @media screen and (max-width: 374px) {
     body {
         width: 100%;
-        /*margin: 0 auto;*/
     }
 }
