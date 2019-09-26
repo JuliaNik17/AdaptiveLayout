@@ -24,7 +24,6 @@
 
 @media screen and (max-width: 1023px){
     .additional__content-title {
-        /*width: 512px;*/
         width: calc(100% - 2*64px);
         margin: 0 64px 24px;
         font-size: 42px;
@@ -34,7 +33,6 @@
 
 @media screen and (max-width: 767px){
     .additional__content-title {
-        /*width: 284px;*/
         width: 100%;
         margin: 0 0 16px;
         font-size: 32px;
@@ -44,7 +42,6 @@
 
 @media screen and (max-width: 374px) {
     .additional__content-title {
-        /*width: 288px;*/
 
     }
 }

@@ -10,7 +10,6 @@
 
 @media screen and (min-width: 1440px) {
     .comments {
-        /*margin: 0 128px 102px;*/
         margin: 0 auto 102px;
     }
 }
@@ -21,7 +20,6 @@
 
 @media screen and (max-width: 1279px) {
     .comments {
-        /*width: 928px;*/
         width: calc(100% - 2*48px);
         margin: 0 48px 102px;
     }
@@ -29,7 +27,6 @@
 
 @media screen and (max-width: 1023px){
     .comments {
-        /*width: 660px;*/
         width: calc(100% - 2*54px);
         margin: 0 54px 102px;
     }
@@ -37,16 +34,13 @@
 
 @media screen and (max-width: 767px){
     .comments {
-        /*width: 343px;*/
         width: calc(100% - 32px);
-        /*width: 91.5%;*/
         margin: 0 16px 64px;
     }
 }
 
 @media screen and (max-width: 374px) {
     .comments {
-        /*width: 288px;*/
-        /*margin: 0 16px 64px;*/
+
     }
 }

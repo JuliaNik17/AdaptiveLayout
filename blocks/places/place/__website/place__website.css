@@ -5,13 +5,11 @@
     width: 484px;
     align-self: center;
     margin-top: 87px;
-    /*margin-bottom: 60px;*/
 }
 
 @media screen and (min-width: 1440px) {
     .place__website {
         margin-top: 0;
-        /*margin-bottom: 60px;*/
     }
 }
 
@@ -19,16 +17,13 @@
     .place__website {
         width: calc(100%/2 - 8px);
         margin-top: 85px;
-        /*width: 456px;*/
     }
 }
 
 @media screen and (max-width: 1023px){
     .place__website {
-        /*width: 352px;*/
         width: calc(100%/2 - 8px);
         margin-top: 39px;
-        /*margin-right: 32px;*/
     }
 }
 

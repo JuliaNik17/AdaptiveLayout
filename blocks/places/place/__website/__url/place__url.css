@@ -17,25 +17,6 @@
 
 @media screen and (max-width: 1279px) {
     .place__url {
-        /*width: 456px;*/
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 1023px){
-    .place__url {
-        /*width: 352px;*/
-    }
-}
-
-@media screen and (max-width: 767px){
-    .place__url {
-        /*width: 343px;*/
-    }
-}
-
-@media screen and (max-width: 374px) {
-    .place__url {
-        /*width: 288px;*/
     }
 }

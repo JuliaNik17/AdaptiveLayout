@@ -17,7 +17,6 @@
 
 @media screen and (max-width: 1279px) {
     .additional__heading {
-        /*width: 208px;*/
         width: calc(100% - 32px);
         top: 24px;
         left: 16px;
@@ -28,7 +27,6 @@
 
 @media screen and (max-width: 1023px){
     .additional__heading {
-        /*width: 248px;*/
         width: calc(100% - 36px);
         font-size: 27px;
         line-height: 29px;
@@ -39,7 +37,6 @@
 
 @media screen and (max-width: 767px){
     .additional__heading {
-        /*width: 248px;*/
         width: calc(100% - 36px);
         font-size: 24px;
         line-height: 26px;
@@ -50,7 +47,6 @@
 
 @media screen and (max-width: 374px) {
     .additional__heading {
-        /*width: 248px;*/
         width: calc(100% - 36px);
         top: 30px;
         left: 18px;

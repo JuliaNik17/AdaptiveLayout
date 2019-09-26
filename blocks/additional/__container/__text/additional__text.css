@@ -18,7 +18,6 @@
 
 @media screen and (max-width: 1279px) {
     .additional__text {
-        /*width: 210px;*/
         left: 18px;
         bottom: 30px;
         width: calc(100% - 32px);
@@ -35,7 +34,6 @@
 
 @media screen and (max-width: 767px){
     .additional__text {
-        /*width: 248px;*/
         width: calc(100% - 36px);
         left: 18px;
         bottom: 30px;

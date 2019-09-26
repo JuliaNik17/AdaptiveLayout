@@ -22,28 +22,16 @@
     }
 }
 
-/*@media screen and (max-width: 1279px) {*/
-/*    .emblem__city {*/
-/*        width: 100%;*/
-/*        margin: 37px 0 0;*/
-/*    }*/
-/*}*/
 
-@media screen and (max-width: 774px)/*(max-width: 1023px)*/{
+@media screen and (max-width: 774px) {
     .emblem__city {
         width: calc(100% - 32px);
         margin: 35px 16px 0;
     }
 }
 
-@media screen and (max-width: 550px) {
-    /*.emblem__city {*/
-    /*    width: calc(100% - 24px);*/
-    /*    margin: 0 24px;*/
-    /*}*/
-}
 
-@media screen and /*(max-width: 767px)*/ (max-width: 380px){
+@media screen and (max-width: 380px){
     .emblem__city {
         margin: 35px auto 0;
     }

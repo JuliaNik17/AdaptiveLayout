@@ -6,7 +6,6 @@
     align-self: flex-end;
     margin-block-start: 0;
     margin-block-end: 0;
-    /*margin-bottom: 60px;*/
     margin-right: 43px;
 }
 
@@ -18,22 +17,17 @@
 
 @media screen and (max-width: 1279px) {
     .place__title {
-        /*width: 440px;*/
         width: calc(100%/2 - 24px);
-        /*width: 43%;*/
-        /*margin-bottom: 40px;*/
         margin-right: 32px;
     }
 }
 
 @media screen and (max-width: 1023px){
     .place__title {
-        /*width: 340px;*/
         width: calc(100%/2 - 20px);
         font-size: 42px;
         line-height: 46px;
         margin-right: 28px;
-        /*margin-top: 9px;*/
     }
 }
 

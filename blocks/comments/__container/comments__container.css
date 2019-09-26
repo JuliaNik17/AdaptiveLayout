@@ -5,7 +5,6 @@
 
 .comments__container {
     width: 1184px;
-    /*height: 283px;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,14 +18,12 @@
 
 @media screen and (max-width: 1279px) {
     .comments__container {
-        /*width: 925px;*/
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1023px){
     .comments__container {
-        /*width: 382px;*/
         width: calc(100% - 2*139px);
         margin: 0 139px;
         flex-direction: column;
@@ -36,7 +33,6 @@
 
 @media screen and (max-width: 767px){
     .comments__container {
-        /*width: 343px;*/
         width: 100%;
         margin: 0 0;
     }
@@ -44,6 +40,6 @@
 
 @media screen and (max-width: 374px) {
     .comments__container {
-        /*width: 288px;*/
+
     }
 }

@@ -34,9 +34,6 @@
 @media screen and (max-width: 767px){
     .video__title {
         width: calc(100% - 48px);
-        /*top: 102px;*/
-        /*left: 24px;*/
-        /*bottom: 40px;*/
 
     }
 }
@@ -44,7 +41,6 @@
 @media screen and (max-width: 374px) {
     .video__title {
         width: calc(100% - 32px);
-        /*margin-top: 8px;*/
         margin-left: 16px;
     }
 }

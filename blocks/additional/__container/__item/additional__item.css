@@ -30,26 +30,15 @@
 
 @media screen and (max-width: 1023px){
     .additional__item {
-        /*max-width: 284px;*/
-        /*min-width: 240px;*/
         width: calc((100% - 16px)/2);
         margin-bottom: 16px;
     }
 
     .additional__item-bg {
         width: 100%;
-        /*width: 284px;*/
-        /*height: 330px;*/
     }
 }
 
-/*@media screen and (max-width: 767px){*/
-/*    .additional__item {*/
-/*        !*width: 100%;*!*/
-/*        */
-/*        margin: 0 auto 24px;*/
-/*    }*/
-/*}*/
 
 @media screen and (max-width: 650px) {
     .additional__item {

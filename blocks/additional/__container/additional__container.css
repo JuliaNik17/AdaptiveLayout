@@ -19,27 +19,18 @@
 
 @media screen and (max-width: 1279px) {
     .additional__container {
-        /*width: 991px;*/
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1023px){
     .additional__container {
-        /*width: 584px;*/
         width: calc(100% - 2*28px);
         margin: 0 28px;
         flex-wrap: wrap;
     }
 }
 
-/*@media screen and (max-width: 767px){*/
-/*    .additional__container {*/
-/*        !*width: 284px;*!*/
-/*        width: 100%;*/
-/*        margin: 0 auto;*/
-/*    }*/
-/*}*/
 
 @media screen and (max-width: 650px) {
     .additional__container {
@@ -51,9 +42,7 @@
 
 @media screen and (max-width: 374px) {
     .additional__container {
-        /*width: 284px;*/
         width: 100%;
-        /*margin: 0 2px;*/
         margin: 0 auto;
     }
 }

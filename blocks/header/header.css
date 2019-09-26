@@ -72,8 +72,6 @@
     .header {
         width: 91.5%;
         margin: 16px 16px 64px;
-        /*margin-top: 16px;*/
-        /*margin-bottom: 64px;*/
     }
 
 }
@@ -93,7 +91,6 @@
 
     .header__logo {
         width: 142px;
-        /*height: 42px;*/
         object-fit: contain;
     }
 
